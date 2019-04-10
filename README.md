@@ -1,27 +1,37 @@
 # Forum
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+## Description
+This is A web application that will allow the user to make posts on a forum and view other posts that have been created. 
 
-## Development server
+## Behavior
+* User can navigate the page using the top nav bar to get to other routes in the website.
+* User can choose to create a new forum post by clicking the create post button on the side nav bar.
+* User will be able to leave comments on an already created post.
+* User will be able to delete their created post.
+* User will be able to edit their created post.
+* User can add links to a post when in the process of creating a post.
+* User will be able to sort the posts by new, implying that the list will show all posts in ascending order from newest created to oldest created.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Setup Instructions 
+* Clone repository
+* Add it to your specified file path using 'git clone "repository link"'
+* > Navigate to the root directory in the terminal
+* > Run the command "npm install" to install all dependancies
+* > Run the command "ng serve --open" to open the project in your browswer.
 
-## Code scaffolding
+### Known Bugs
+* No Known bugs
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Languages/ Libraries Used
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* TypeScript
+* Node.js
+* Angular
 
-## Build
+## Support or Contact
+* For any questions email me at theportersavage@gmail.com
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2019 Porter Savage
