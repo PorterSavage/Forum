@@ -14,10 +14,10 @@ export class HomeComponent implements OnInit {
   constructor(private threadService: ThreadService) { }
 
   ngOnInit() {
-    this.threads = this.threadService.getThreads()
+    this.threads = this.threadService.getThreads();
   }
   
   deleteThread(threadKey) {
-    this.threadService.deleteThread(threadKey);
+    this.threadService.deleteThread(threadKey); 
   }
 }

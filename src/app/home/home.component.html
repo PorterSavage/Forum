@@ -1,10 +1,14 @@
-<h3>List of current posts:</h3>
+<div class="center">
+  <h3>List of current posts:</h3>
+</div>
 <ul *ngIf="threads">
-  <li *ngFor="let thread of threads | async">
-    <h3>
-      {{thread.title}}
-      {{thread.body}}
-    </h3>
-    <button  class="btn btn-success btn-lg" (click)="deleteThread(thread.$key)">Delete Thread</button>
-  </li>
+  <div *ngFor="let thread of threads | async" class="thread">
+    <li>
+      <h2>{{thread.title}}</h2>
+    </li>
+    <h4>{{thread.link}}</h4>
+    <h3>{{thread.body}}</h3>
+    <br>
+    <button  class="btn btn-success btn-sm" (click)="deleteThread(thread.$key)">Delete Thread</button>
+  </div>
 </ul>
