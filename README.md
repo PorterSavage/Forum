@@ -5,12 +5,9 @@ This is A web application that will allow the user to make posts on a forum and 
 
 ## Behavior
 * User can navigate the page using the top nav bar to get to other routes in the website.
-* User can choose to create a new forum post by clicking the create post button on the side nav bar.
-* User will be able to leave comments on an already created post.
+* User can choose to create a new forum post by clicking the create post button on the top nav bar.
 * User will be able to delete their created post.
-* User will be able to edit their created post.
 * User can add links to a post when in the process of creating a post.
-* User will be able to sort the posts by new, implying that the list will show all posts in ascending order from newest created to oldest created.
 
 ### Setup Instructions 
 * Clone repository
