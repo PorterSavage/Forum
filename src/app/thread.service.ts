@@ -19,4 +19,8 @@ export class ThreadService {
   addThread(newThread: Thread) {
     this.threads.push(newThread);
   }
+
+  deleteThread(threadKey) {
+    this.threads.remove(threadKey);
+  }
 }

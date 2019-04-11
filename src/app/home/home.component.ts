@@ -16,5 +16,8 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.threads = this.threadService.getThreads()
   }
-
+  
+  deleteThread(threadKey) {
+    this.threadService.deleteThread(threadKey);
+  }
 }
