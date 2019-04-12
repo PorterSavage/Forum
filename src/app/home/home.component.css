@@ -8,6 +8,7 @@
 
 #threadCard {
   width: 65%;
+  opacity: .7;
 }
 
 #rulesCard {
@@ -15,6 +16,7 @@
   width: 30%;
   text-align: center;
   float: right;
+  opacity: .7;
 }
 
 #list {

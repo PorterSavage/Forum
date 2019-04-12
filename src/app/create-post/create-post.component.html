@@ -1,13 +1,18 @@
-<h1>New Thread:</h1>
-<div class="center">
-  <label>Title:</label>
-  <input #title>
+<div id="newPostCard" class="card bg-secondary">
+  <h1>New Thread:</h1>
+</div>
+<div id="inputsCard" class="card bg-secondary">
   <br>
-  <label>Link:</label>
-  <input #link>
-  <br>
-  <label>Body:</label>
-  <textarea #body></textarea>
-  <br>
-  <button (click)="createThread(title.value, link.value, body.value); title.value=''; link.value=''; body.value='';">Create Thread</button>
+  <div class="center">
+    <label>Title:</label>
+    <input #title>
+    <br>
+    <label>Link:</label>
+    <input #link>
+    <br>
+    <label>Body:</label>
+    <textarea #body></textarea>
+    <br>
+    <button (click)="createThread(title.value, link.value, body.value); title.value=''; link.value=''; body.value='';">Create Thread</button>
+  </div>
 </div>
