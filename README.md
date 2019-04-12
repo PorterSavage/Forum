@@ -14,6 +14,8 @@ This is A web application that will allow the user to make posts on a forum and 
 * Add it to your specified file path using 'git clone "repository link"'
 * > Navigate to the root directory in the terminal
 * > Run the command "npm install" to install all dependancies
+* > Create your own api-keys.ts file in the app folder and populate it with your own firebase credentials.
+* > Input ng build into the terminal.
 * > Run the command "ng serve --open" to open the project in your browswer.
 
 ### Known Bugs
@@ -23,7 +25,7 @@ This is A web application that will allow the user to make posts on a forum and 
 * HTML
 * CSS
 * Bootstrap
-* JavaScript
+* JavaScript/ES6
 * TypeScript
 * Node.js
 * Angular
