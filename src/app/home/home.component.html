@@ -3,12 +3,25 @@
 </div>
 <ul *ngIf="threads">
   <div *ngFor="let thread of threads | async" class="thread">
-    <li>
-      <h2>{{thread.title}}</h2>
-    </li>
-    <h4>{{thread.link}}</h4>
-    <h3>{{thread.body}}</h3>
-    <br>
-    <button  class="btn btn-success btn-sm" (click)="deleteThread(thread.$key)">Delete Thread</button>
+    <div id="threadCard" class="card bg-info">
+      <li>
+        <h2>{{thread.title}}</h2>
+      </li>
+      <h4>{{thread.link}}</h4>
+      <h3>{{thread.body}}</h3>
+      <br>
+      <button  class="btn btn-success btn-sm" (click)="deleteThread(thread.$key)">Delete Thread</button>
+    </div>
   </div>
 </ul>
+<div id="rulesCard" class="card bg-warning">
+  <h2>Rules of the Board:</h2>
+  <ul>
+    <li>Don't be Mean.</li>
+    <li>Post whatever you want, As long as it's not discriminatory.</li>
+    <li>Try not to delete other people's posts.</li>
+    <li>Try to post A link with every new thread that you make.</li>
+    <li>3 offenses and you will be banned!</li>
+    <li>Have fun!</li>
+  </ul>
+</div>

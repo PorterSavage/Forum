@@ -5,3 +5,14 @@
 .thread {
   margin-top: 80px;
 }
+
+#threadCard {
+  width: 65%;
+}
+
+#rulesCard {
+  margin-right: 20px;
+  width: 30%;
+  text-align: center;
+  float: right;
+}

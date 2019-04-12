@@ -14,10 +14,12 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 260px;
+  padding: 14px 165px;
   text-decoration: none;
+  font-size: 80%;
 }
 
 li a:hover {
   background-color: gray;
-}  
+} 
+
