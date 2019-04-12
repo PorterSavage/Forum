@@ -15,7 +15,7 @@
           <li>Have fun!</li>
         </ul>
       </div>
-  <h3>List of current posts:</h3>
+  <h3 id="list">List of current posts:</h3>
 </div>
 <ul *ngIf="threads">
   <div *ngFor="let thread of threads | async" class="thread">
