@@ -17,6 +17,7 @@ This is A web application that will allow the user to make posts on a forum and 
 * > Create your own api-keys.ts file in the app folder and populate it with your own firebase credentials.
 * > Input ng build into the terminal.
 * > Run the command "ng serve --open" to open the project in your browswer.
+* > Link to FireBase deployment https://forum-221a4.firebaseapp.com/
 
 ### Known Bugs
 * No Known bugs
